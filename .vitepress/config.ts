@@ -25,8 +25,8 @@ export default defineConfig({
           text: '规范',
           items: [
             { text: '进入开发', link: '/guide/develop' },
-            { text: '开发规范', link: '/guide/' },
-            { text: '项目目录', link: '/guide/structure' },
+            { text: '开发规范', link: '/guide/develop-rules' },
+            { text: '路由', link: '/guide/router' },
           ],
         },
       ],

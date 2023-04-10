@@ -86,6 +86,10 @@ src
 ## 开始开发
 ### 新增页面
 所有的页面均放置在 `/src/pages` 下，且只允许使用 `Composition API` 编写页面或组件
+::: tip
+页面级组件或需要包含动画的组件必须外包一个 `<div>` 标签。  
+页面级组件如果需要内边距请为最外层 `<div>` 标签添加 `Class`: `padding-wrap`。
+:::
 ``` vue
 <template>
   <div>
