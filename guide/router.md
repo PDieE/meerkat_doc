@@ -1,4 +1,4 @@
-# 路由配置
+# 路由与菜单
 在项目中，管理菜单路由都规范在 `src/router` 这个目录下进行配置。
 ::: tip
 通常情况下不需要去理解和修改 `index.ts`, 只需要在 `modules` 目录下增删文件，即可自动添加更新路由
@@ -62,12 +62,12 @@
       meta: { title: '二级菜单' },
       component: () => import('@/layouts/blank.vue'),
       children: [
-           {
-             path: 'third',
-             name: 'NestMenu',
-             component: () => import('@/pages/nest-menu/index.vue'),
-             meta: { title: '三级菜单' },
-           },
+        {
+          path: 'third',
+          name: 'NestMenu',
+          component: () => import('@/pages/nest-menu/index.vue'),
+          meta: { title: '三级菜单' },
+        },
       ],
     },
   ],

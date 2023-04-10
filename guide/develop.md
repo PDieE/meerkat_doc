@@ -119,7 +119,7 @@ function increment() {
 //...
 </style>
 ```
-然后，需要在配置新页面的路由。根据具体的需求，修改 `src/router/modules` 中的文件。
+然后，需要在配置新页面的路由。根据具体的需求，修改 `src/router/modules` 中的文件。[详见](/guide/router.html)
 ```js
 export default [
   // ...其他路由
