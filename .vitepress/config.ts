@@ -27,6 +27,7 @@ export default defineConfig({
             { text: '进入开发', link: '/guide/develop' },
             { text: '开发规范', link: '/guide/develop-rules' },
             { text: '路由与菜单', link: '/guide/router' },
+            { text: '样式与静态资源', link: '/guide/style' },
           ],
         },
       ],
