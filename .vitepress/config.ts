@@ -4,21 +4,29 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: '猫鼬云新品前端文档',
   description: '猫鼬云新品前端文档',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '规范', link: '/standard/', activeMatch: '/standard/' },
+      { text: '规范', link: '/guide/getting-started', activeMatch: '/guide/' },
       { text: 'Examples', link: '/markdown-examples' },
     ],
 
     sidebar: {
-      '/standard/': [
+      '/guide/': [
+        {
+          text: '上手',
+          items: [
+            { text: '快速开始', link: '/guide/getting-started' },
+          ],
+        },
         {
           text: '规范',
           items: [
-            { text: '基础', link: '/standard/' },
-            { text: '项目结构', link: '/standard/structure' },
+            { text: '进入开发', link: '/guide/develop' },
+            { text: '开发规范', link: '/guide/' },
+            { text: '项目目录', link: '/guide/structure' },
           ],
         },
       ],

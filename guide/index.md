@@ -1,14 +1,10 @@
 # 企赋云前端项目规范
 为了维护项目的代码质量，项目中内置了格式化代码的工具 `Prettier` 和代码检测质量检查工具 `ESlint`。
 
+# 开发规范
 ## 代码编写规范
-### [Prettier](https://prettier.io)
-在搭建好的项目中，已经内置了符合 企赋云 开发规范的 `.prettierrc.js` 文件。只需要安装 `Prettier` 插件，即可使用代码自动格式化的功能。
-
-### [ESlint](https://eslint.org)
-ESlint 可以用来检查代码质量和风格问题。
-在架搭建好的项目中，也已经内置了 `.eslintrc` 文件。可以通过下面命令来进行代码检查和自动修复。
-执行以下指令，会进行问题的检查及修复，在 `pre-commit` 的 `git hook` 中，项目也内置了检查指令，帮助您在提交代码前发现问题。
+项目内已经内置了符合本公司规范的 [Prettier](https://prettier.io) 和 [ESlint](https://eslint.org) 配置及相关功能
+执行以下指令，会进行问题的检查及修复，在 `pre-commit` 的 `git hook` 中，项目也内置了检查指令，帮助你在提交代码前发现问题
 ```shell
 # 代码检查
 npm run lint
@@ -19,7 +15,7 @@ npm run lint:fix
 
 ## 换行
 换行符全部采用LF
-对于 `windows` 系统 必须要使用以下命令关闭自动换行符转换
+对于 `windows` 系统 必须要使用以下命令关闭 `git` 自动换行符转换
 ```shell
 git config --global core.autocrlf false
 ```
@@ -42,32 +38,6 @@ git config --global core.autocrlf false
 </template>
 ```
 3. 全局公共组件必须放入 `/src/components` 文件夹
-
-
-## 路由配置
-所有开发人员在一半情况下只能通过 `/src/router/modules/components.ts` 文件添加或修改路由。
-路由配置字段对的具体作用：
-<ul>
-  <li><code>path</code> 是当前路由的路径，会与配置中的父级节点的 path 组成该页面路由的最终路径；如果需要跳转外部链接，可以将 <code>path</code> 设置为 http 协议开头的路径。</li>
-  <li><code>name</code> 影响多标签 Tab 页的 keep-alive 的能力，如果要确保页面有 keep-alive 的能力，请保证该路由的 <code>name</code> 与对应页面（SFC)的 <code>name</code> 保持一致。</li>
-  <li><code>component</code> 渲染该路由时使用的页面组件</li>
-  <li><code>redirect</code> 重定向的路径</li>
-  <li>
-    <code>meta</code> 主要用途是路由在菜单上展示的效果的配置
-    <ul>
-      <li><code>meta.title</code> 该路由在菜单上展示的标题</li>
-      <li><code>meta.icon</code> 该路由在菜单上展示的图标</li>
-      <li><code>meta.expanded</code> 决定该路由在菜单上是否默认展开</li>
-      <li><code>meta.orderNo</code> 该路由在菜单上展示先后顺序，数字越小越靠前，默认为零</li>
-      <li><code>meta.hidden</code> 决定该路由是否在菜单上进行展示</li>
-      <li><code>meta.hiddenBreadcrumb</code> 如果启用了面包屑，决定该路由是否在面包屑上进行展示</li>
-      <li><code>meta.single</code> 如果是多级菜单且只存在一个节点，想在菜单上只展示一级节点，可以使用该配置。<em>请注意该配置需配置在父节点</em></li>
-      <li><code>meta.frameSrc</code> 内嵌 iframe 的地址</li>
-      <li><code>meta.frameBlank</code> 内嵌 iframe 的地址是否以新窗口打开</li>
-    </ul>
-  </li>
-  <li><code>children</code> 子菜单的配置</li>
-</ul>
 
 ## 样式
 1. 所有样式均采用 `less` 编写
