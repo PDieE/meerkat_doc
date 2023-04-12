@@ -28,6 +28,7 @@ export default defineConfig({
             { text: '开发规范', link: '/guide/develop-rules' },
             { text: '路由与菜单', link: '/guide/router' },
             { text: '样式与静态资源', link: '/guide/style' },
+            { text: '依赖库选用标准', link: '/guide/modules' }
           ],
         },
       ],
