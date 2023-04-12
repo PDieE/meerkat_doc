@@ -11,8 +11,8 @@ hero:
       text: 快速开始
       link: /guide/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 组件
+      link: /components/rich-editor
 
 features:
   - title: Feature A
