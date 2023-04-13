@@ -39,7 +39,7 @@ export default defineConfig({
           text: '组件',
           items: [
             { text: '富文本 - RichEditor', link: '/components/rich-editor' },
-            { text: 'api', link: '/api-examples' },
+            { text: '文件上传 - Uploader', link: '/components/uploader' },
           ],
         },
       ],

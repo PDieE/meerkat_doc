@@ -1,4 +1,4 @@
-# 富文本编辑器 - RichEditor <Badge type="tip" text=">=0.1.0" />
+# 富文本编辑器 - RichEditor
 基于 [wangEditor 5](https://www.wangeditor.com/) 二次封装的富文本编辑器组件
 
 ## 使用示例
@@ -14,7 +14,7 @@ const value = ref('');
 </script>
 ```
 
-## Api
+## Props
 ### modelValue
 - 类型：`string`  
 `v-model` 绑定值，必传
@@ -46,3 +46,8 @@ const value = ref('');
 - 类型：`'default' | 'success' | 'warning' | 'error'`
 - 默认值：`default`  
 编辑器状态，用于控制编辑器的展示不同色彩的边框，具体表现形式与 Tdesgin 的表单组件基本一致
+
+## Events
+### change
+- 参数：`(value: string)`  
+编辑器内容更新时触发
