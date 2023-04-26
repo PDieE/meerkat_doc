@@ -46,6 +46,7 @@ export default defineConfig({
           text: '图',
           items: [
             { text: '行业发展史 - IndustryNodeGraph', link: '/components/industry-node-graph' },
+            { text: '品类发展史 - CategoryNodeGraph', link: '/components/category-node-graph' },
             { text: '趋势图 - TrendNodeGraph', link: '/components/trend-node-graph' },
           ],
         },
