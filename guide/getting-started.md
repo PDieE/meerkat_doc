@@ -63,7 +63,7 @@ npm run dev:linux
 :::
 | <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Edge" style="display: inline;" /> | <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" style="display: inline;" /> | <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" style="display: inline;" /> | <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" style="display: inline;" /> |
 | :-------: | :-------: | :-------: | :-------: |
-| Edge >=84 | Firefox >=83 | Chrome >=84 | Safari >=14.1 |
+| Edge >=91 | Firefox >=83 | Chrome >=91 | Safari >=14.1 |
 
 ## 新手知识
 [Vue](https://cn.vuejs.org)  

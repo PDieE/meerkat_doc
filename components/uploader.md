@@ -18,7 +18,7 @@ const fileList = ref<UploadFile[]>([]);
 ## Props
 ### modelValue
 - 类型：`UploadFile[]`  
-`v-model` 绑定值，必传，[UploadFile 定义](/components/uploader.html#uploadfile)
+`v-model` 绑定值，必传
 
 ### accept
 - 类型：`string`  
@@ -27,12 +27,12 @@ const fileList = ref<UploadFile[]>([]);
 
 ### beforeUpload
 - 类型：`(file: UploadFile) => boolean | Promise<boolean>`  
-文件上传前回调钩子，[UploadFile 定义](/components/uploader.html#uploadfile)
+文件上传前回调钩子
 
 ### format
 - 类型：`(file: UploaderFile) => UploadFile`
 - 默认值：`{}`  
-转换文件 `UploadFile` 的数据结构，[UploadFile 定义](/components/uploader.html#uploadfile)，[UploaderFile 定义](/components/uploader.html#uploaderfile)
+转换文件 `UploadFile` 的数据结构
 ::: tip
 可新增或修改 `UploadFile` 的属性，注意不能删除 `UploadFile` 属性，不可修改 `id` 字段
 :::
@@ -40,7 +40,7 @@ const fileList = ref<UploadFile[]>([]);
 ## Events
 ### change
 - 参数：`(value: UploadFile[])`
-已上传文件列表发生变化时触发，[UploadFile 定义](/components/uploader.html#uploadfile)
+已上传文件列表发生变化时触发
 
 ## Interface
 ### UploadFile

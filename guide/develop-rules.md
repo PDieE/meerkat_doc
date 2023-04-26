@@ -81,7 +81,10 @@ git config --global core.autocrlf false
 - 功能分支 -- `feat/xxx`
 - 修复分支 -- `fix/xxx`
 `master` 分支只接受通过 `Pull Request` 合入功能分支
-为保证提交的记录干净整洁，其他分支合入之前需要先 `rebase master` 分支
+为保证提交的记录干净整洁，其他分支合入之前需要先 `git rebase master` 分支
+::: tip
+如果发生冲突解决后需要执行 `git add . && git rebase --continue` 继续进行rebase
+:::
 分支命名规则: `feat/20210401_功能名称`
 一个分支只代表一个功能/页面/bugfix
 

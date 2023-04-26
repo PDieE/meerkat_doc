@@ -36,10 +36,17 @@ export default defineConfig({
       ],
       '/components/': [
         {
-          text: '组件',
+          text: '基础组件',
           items: [
             { text: '富文本 - RichEditor', link: '/components/rich-editor' },
             { text: '文件上传 - Uploader', link: '/components/uploader' },
+          ],
+        },
+        {
+          text: '图',
+          items: [
+            { text: '行业发展史 - IndustryNodeGraph', link: '/components/industry-node-graph' },
+            { text: '趋势图 - TrendNodeGraph', link: '/components/trend-node-graph' },
           ],
         },
       ],
