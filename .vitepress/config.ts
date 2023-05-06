@@ -49,6 +49,7 @@ export default defineConfig({
             { text: '品类发展史 - CategoryHistory', link: '/components/list-item/category-history' },
             { text: '竞品/产品 - Competitor', link: '/components/list-item/competitor' },
             { text: '核心竞品 - CoreCompetitor', link: '/components/list-item/core-competitor' },
+            { text: '市场文件 - File', link: '/components/list-item/file' },
           ],
         },
         {
