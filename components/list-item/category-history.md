@@ -1,5 +1,5 @@
 # 品类发展史 - CategoryHistory
-数据分析的列表项
+品类发展史列表元素
 
 ## 使用示例
 ### 基本
@@ -11,7 +11,7 @@
 import { CatetoryHistory } from '@/api/model/marketModel';
 import CategoryHistory from '@/components/list-item/CategoryHistory.vue';
 
-const data = ref<CompetitorAndProductAnalysis | MarketDataAnalysis[]>([]);
+const data = ref<CatetoryHistory>();
 </script>
 ```
 
@@ -19,7 +19,7 @@ const data = ref<CompetitorAndProductAnalysis | MarketDataAnalysis[]>([]);
 
 ### info
 - 类型：`CatetoryHistory`  
-数据分析的数据
+数据
 
 ### border
 - 类型：`boolean`

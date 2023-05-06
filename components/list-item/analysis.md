@@ -1,5 +1,5 @@
 # 数据分析 - Analysis
-数据分析的列表项
+数据分析列表元素
 
 ## 使用示例
 ### 基本
@@ -12,7 +12,7 @@ import { CompetitorAndProductAnalysis } from '@/api/model/commonModel';
 import { MarketDataAnalysis } from '@/api/model/marketModel';
 import Analysis from '@/components/list-item/Analysis.vue';
 
-const data = ref<CompetitorAndProductAnalysis | MarketDataAnalysis[]>([]);
+const data = ref<CompetitorAndProductAnalysis | MarketDataAnalysis>();
 </script>
 ```
 
@@ -20,7 +20,7 @@ const data = ref<CompetitorAndProductAnalysis | MarketDataAnalysis[]>([]);
 
 ### info
 - 类型：`CompetitorAndProductAnalysis | MarketDataAnalysis`  
-数据分析的数据
+数据
 
 ### type
 - 类型：`'competitorAndProduct' | 'market'`
