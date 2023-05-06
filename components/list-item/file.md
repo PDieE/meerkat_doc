@@ -8,17 +8,17 @@
   <file :info="data" />
 </template>
 <script lang="ts" setup>
-import { CompetitorAndProduct } from '@/api/model/commonModel';
+import { FileLibraryInfo } from '@/api/model/commonModel';
 import File from '@/components/list-item/File.vue';
 
-const data = ref<CompetitorAndProduct>();
+const data = ref<FileLibraryInfo>();
 </script>
 ```
 
 ## Props
 
 ### info
-- 类型：`CompetitorAndProduct`  
+- 类型：`FileLibraryInfo`  
 数据
 
 ### isDir

@@ -1,15 +1,15 @@
-# 品类发展史 - CategoryHistory
+# 品类发展史 - CategoryHistoryItem
 品类发展史列表元素
 
 ## 使用示例
 ### 基本
 ```vue
 <template>
-  <category-history :info="data" />
+  <category-history-item :info="data" />
 </template>
 <script lang="ts" setup>
 import { CatetoryHistory } from '@/api/model/marketModel';
-import CategoryHistory from '@/components/list-item/CategoryHistory.vue';
+import CategoryHistoryItem from '@/components/list-item/CategoryHistoryItem.vue';
 
 const data = ref<CatetoryHistory>();
 </script>

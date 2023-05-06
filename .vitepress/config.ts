@@ -46,7 +46,8 @@ export default defineConfig({
           text: '列表元素',
           items: [
             { text: '数据分析 - Analysis', link: '/components/list-item/analysis' },
-            { text: '品类发展史 - CategoryHistory', link: '/components/list-item/category-history' },
+            { text: '品类发展史 - CategoryHistoryItem', link: '/components/list-item/category-history-item' },
+            { text: '行业发展史 - IndustryHistoryItem', link: '/components/list-item/industry-history-item' },
             { text: '竞品/产品 - Competitor', link: '/components/list-item/competitor' },
             { text: '核心竞品 - CoreCompetitor', link: '/components/list-item/core-competitor' },
             { text: '市场文件 - File', link: '/components/list-item/file' },
