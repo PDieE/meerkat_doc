@@ -5,6 +5,8 @@ export default defineConfig({
   title: '猫鼬云新品',
   description: '猫鼬云新品前端文档',
   lastUpdated: true,
+
+  base: '/meerkat_doc/',
   
   themeConfig: {
     outline: 'deep',
