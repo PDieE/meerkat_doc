@@ -46,6 +46,7 @@ export default defineConfig({
           text: '列表项',
           items: [
             { text: '数据分析 - Analysis', link: '/components/list-item/analysis' },
+            { text: '品类发展史 - CategoryHistory', link: '/components/list-item/category-history' },
           ],
         },
         {

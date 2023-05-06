@@ -22,7 +22,7 @@ const data = ref<CompetitorAndProductAnalysis | MarketDataAnalysis[]>([]);
 - 类型：`CompetitorAndProductAnalysis | MarketDataAnalysis`  
 数据分析的数据
 
-### readonly
+### type
 - 类型：`'competitorAndProduct' | 'market'`
 - 默认值：`competitorAndProduct`  
 类型，`competitorAndProduct`: 竞品和产品对比分析; `market`: 市场数据分析
