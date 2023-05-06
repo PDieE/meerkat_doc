@@ -22,6 +22,6 @@ features:
     link: https://e.gitee.com/qfcloud/projects/431225/repos/qfcloud/meerkat_admin/sources
   - title: 前端文档
     details: 前端文档源码地址
-    link: https://e.gitee.com/qfcloud/projects/431225/repos/qfcloud/meerkat_doc/sources
+    link: https://github.com/PDieE/meerkat_doc
 ---
 

@@ -65,7 +65,5 @@ export default defineConfig({
         },
       ],
     },
-
-    socialLinks: [{ icon: 'github', link: 'https://e.gitee.com/qfcloud/repos/qfcloud/meerkat_dashboard/sources' }],
   },
 });
