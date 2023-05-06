@@ -5,7 +5,6 @@ node_modules
 es/
 lib/
 cache/
-dist/
 typings/
 
 _site
