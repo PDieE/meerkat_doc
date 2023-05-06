@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: '猫鼬云新品前端文档',
+  title: '猫鼬云新品',
   description: '猫鼬云新品前端文档',
   lastUpdated: true,
   
@@ -64,6 +64,6 @@ export default defineConfig({
       ],
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+    socialLinks: [{ icon: 'github', link: 'https://e.gitee.com/qfcloud/repos/qfcloud/meerkat_dashboard/sources' }],
   },
 });
