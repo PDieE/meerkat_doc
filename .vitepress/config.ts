@@ -43,11 +43,17 @@ export default defineConfig({
           ],
         },
         {
+          text: '列表项',
+          items: [
+            { text: '数据分析 - Analysis', link: '/components/list-item/analysis' },
+          ],
+        },
+        {
           text: '图',
           items: [
-            { text: '行业发展史 - IndustryNodeGraph', link: '/components/industry-node-graph' },
-            { text: '品类发展史 - CategoryNodeGraph', link: '/components/category-node-graph' },
-            { text: '趋势图 - TrendNodeGraph', link: '/components/trend-node-graph' },
+            { text: '行业发展史 - IndustryNodeGraph', link: '/components/graph-editor/industry-node-graph' },
+            { text: '品类发展史 - CategoryNodeGraph', link: '/components/graph-editor/category-node-graph' },
+            { text: '趋势图 - TrendNodeGraph', link: '/components/graph-editor/trend-node-graph' },
           ],
         },
       ],
