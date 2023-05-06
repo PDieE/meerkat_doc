@@ -48,6 +48,7 @@ export default defineConfig({
             { text: '数据分析 - Analysis', link: '/components/list-item/analysis' },
             { text: '品类发展史 - CategoryHistory', link: '/components/list-item/category-history' },
             { text: '竞品/产品 - Competitor', link: '/components/list-item/competitor' },
+            { text: '核心竞品 - CoreCompetitor', link: '/components/list-item/core-competitor' },
           ],
         },
         {
